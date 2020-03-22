@@ -7,7 +7,7 @@ CNTL
       core_power       1e-4  !  3411 MWt
 !
 !                         A     B     C     D    SA    SB    SC    SD    SD
-      bank_pos            400.0 400.0 400.0 400.0 400.0 400.0 400.0 400.0 400.0 ! ARO
+      bank_pos            0     0     0     0     0     0     0     0     0 ! ARO
 !
 !     search           ppm    1.0    1250.0
       ppm              1250.0

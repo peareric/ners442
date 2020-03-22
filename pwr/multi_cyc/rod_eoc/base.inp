@@ -7,7 +7,7 @@ CNTL
       core_power       1e-4  !  3411 MWt
 !
 !                         A     B     C     D    SA    SB    SC    SD    SD
-      bank_pos            0     0     0     0     0     0     0     0     0 ! ARO
+      bank_pos            400.0 400.0 400.0 400.0 400.0 400.0 400.0 400.0 400.0 ! ARO
 !
 !     search           ppm    1.0    1250.0
       ppm              0.1
@@ -98,7 +98,7 @@ TH
 DEPL
       hst_opt        T T T F F
       out_opt        T T T F F
-      inp_hist       '4loop-8.dep'  1   13
+      inp_hst        '4loop-8.dep'  1   13
 !      time_stp       12*30.0
 !
 !            Index                  PMAXS File Name                               Br_struct
