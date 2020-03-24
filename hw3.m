@@ -11,7 +11,7 @@ boron = burn_bor(:, 2);
 
 plot(burnup, boron); 
 xlabel('Burnup (GWd/T)'); ylabel('Boron (ppm)');
-title('Boron Concentration vs Burnup for Startup Core (PWR)');
+title('Fig. 1: Boron Concentration vs Burnup for Startup Core (PWR)');
 
 % 1a
 orig_map = dlmread('1a.txt');
@@ -56,7 +56,7 @@ for x = 1:sz(1)
         end
     end
 end
-title('Watts Bar I Startup Core Loading Pattern (PWR)')
+title('Fig. 2: Watts Bar I Startup Core Loading Pattern (PWR)')
 
 %close all;
 %% 2: Equilibrium Cycle
@@ -66,7 +66,7 @@ burnup2a = eq_cycle(:, 1);
 boron2a = eq_cycle(:, end);
 figure(3); plot(burnup2a, boron2a); 
 xlabel('Burnup (GWd/T)'); ylabel('Boron (ppm)');
-title('Boron Concentration vs Burnup for Equilibrium Cycle (PWR)');
+title('Fig. 3: Boron Concentration vs Burnup for Equilibrium Cycle (PWR)');
 
 % 2b
 % ask eric about if cycle # is ok axis title
@@ -76,7 +76,7 @@ max_diffs = [17.3622192118096 16.6683403333263 15.4544838214857 ...
              0.325540349198448 7.651817188342136e-2];
 figure(4);
 plot(cycles, max_diffs);
-title('Convergence in Burnup Over Cycles');
+title('Fig. 4: Convergence in Burnup Over Cycles (PWR)');
 xlabel('Cycle Number'); ylabel('Max Burnup Difference from Previous Cycle (GWd/T)');
 
 %close all;
